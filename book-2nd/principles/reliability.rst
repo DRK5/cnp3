@@ -229,7 +229,7 @@ For example, consider the transmission of `0110111111111111111110010`. The sende
 
 `Bit stuffing` can be easily implemented in hardware. However, implementing it in software is difficult given the complexity of performing bit manipulations in software. Software implementations prefer to process characters than bits, software-based datalink layers usually use `character stuffing`. This technique operates on frames that contain an integer number of characters. In computer networks, characters are usually encoded by relying on the :term:`ASCII` table. This table defines the encoding of various alphanumeric characters as a sequence of bits. :rfc:`20` provides the ASCII table that is used by many protocols on the Internet. For example, the table defines the following binary representations :
 
- - `A` : `1000011` b 
+ - `A` : `1000001` b 
  - `0` : `0110000` b
  - `z` : `1111010` b
  - `@` : `1000000` b
